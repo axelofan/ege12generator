@@ -18,7 +18,7 @@ import data from './generator'
 class App extends React.Component {
   constructor(props) {
     super(props)
-    this.state = {...data, showAnswer:true}
+    this.state = {...data, showAnswer:false}
   };
 
   getRandomTask = () => {
