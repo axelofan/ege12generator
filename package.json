@@ -1,6 +1,6 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
+  "name": "ege12generator",
+  "version": "1.0.0",
   "private": true,
   "homepage": "http://axelofan.github.io/ege12generator",
   "dependencies": {
