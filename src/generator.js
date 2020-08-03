@@ -67,7 +67,7 @@ function getRandomIp(net, mask) {
 }
 
 
-const mask = generateMask( randint(17,24) )
+const mask = generateMask( randint(17,26) )
 const net = generateNet(mask)
 const ip = getRandomIp(net, mask)
 

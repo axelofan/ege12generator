@@ -11,8 +11,8 @@ class FindNet extends React.Component {
     render() {
         return (
           <div>
-            <p>По заданным IP-адресу узла и маске определите адрес сети:</p>
-            <p>IP-адрес: {this.state.ip.join('.')} Маска: {this.state.mask.join('.')}</p>
+            <p>По заданным IP-адресу узла и маске определите адрес сети:<br/>
+            IP-адрес: {this.state.ip.join('.')} Маска: {this.state.mask.join('.')}</p>
             <p onClick={this.showAnswer}>Ответ: <span className={this.state.showAnswer ? '' : 'hide'}>{this.state.net.join('.')}</span></p>
           </div>
         );
