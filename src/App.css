@@ -11,6 +11,10 @@ p {
   text-align: justify;
 }
 
+.code {
+  font-family: monospace;
+}
+
 .number {
   border: 2px solid;
   padding: 4px;
@@ -19,4 +23,19 @@ p {
 
 .hide {
   display: none;
+}
+
+.important {
+  color:red;
+}
+
+.hintButton {
+  color: #0066B3;
+  cursor: pointer;
+  font-weight: bolder;
+  border-bottom: 2px dashed;
+}
+
+.bold {
+  font-weight: bolder;
 }

@@ -18,7 +18,7 @@ import data from './generator'
 class App extends React.Component {
   constructor(props) {
     super(props)
-    this.state = data
+    this.state = {...data, showAnswer:true}
   };
 
   getRandomTask = () => {
@@ -33,8 +33,8 @@ class App extends React.Component {
         <Max0Mask data = {this.state}/>
       )
 
-      if (this.state.minMask[2]<255) component.push(<Min3rdMask data = {this.state}/>)
-      if (this.state.maxMask[2]<255) component.push(<Max3rdMask data = {this.state}/>)
+      if (0<this.state.minMask[2] && this.state.minMask[2]<255) component.push(<Min3rdMask data = {this.state}/>)
+      if (0<this.state.minMask[2] && this.state.minMask[2]<255) component.push(<Max3rdMask data = {this.state}/>)
       if (2**(32-this.state.maxCount)<1024) component.push(<MinAdress data = {this.state}/>)
       if (2**(32-this.state.minCount)<1024) component.push(<MaxAdress data = {this.state}/>)
     }
@@ -43,8 +43,6 @@ class App extends React.Component {
     let i = Math.floor(Math.random() * component.length)
     return component[i]
   }
-
-  showAnswer = () => this.setState({showAnswer:true})
 
   render() {
     return (
