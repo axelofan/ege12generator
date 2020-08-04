@@ -17,7 +17,7 @@ function randint(min, max) {
  */
 function generateIp() {
     const result=[]
-    for(let i=0;i<4;i++) result.push(randint(10,255))
+    for(let i=0;i<4;i++) result.push(randint(10,223))
     return result
 }
 
