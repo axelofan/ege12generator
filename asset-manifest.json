@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ege12generator/static/css/main.e9b23d98.chunk.css",
+    "main.js": "/ege12generator/static/js/main.2cb7e3ba.chunk.js",
+    "main.js.map": "/ege12generator/static/js/main.2cb7e3ba.chunk.js.map",
+    "runtime-main.js": "/ege12generator/static/js/runtime-main.7c4bfc1f.js",
+    "runtime-main.js.map": "/ege12generator/static/js/runtime-main.7c4bfc1f.js.map",
+    "static/js/2.1848e9d4.chunk.js": "/ege12generator/static/js/2.1848e9d4.chunk.js",
+    "static/js/2.1848e9d4.chunk.js.map": "/ege12generator/static/js/2.1848e9d4.chunk.js.map",
+    "index.html": "/ege12generator/index.html",
+    "precache-manifest.2b40ac388db43c067a75b21677e96109.js": "/ege12generator/precache-manifest.2b40ac388db43c067a75b21677e96109.js",
+    "service-worker.js": "/ege12generator/service-worker.js",
+    "static/css/main.e9b23d98.chunk.css.map": "/ege12generator/static/css/main.e9b23d98.chunk.css.map",
+    "static/js/2.1848e9d4.chunk.js.LICENSE.txt": "/ege12generator/static/js/2.1848e9d4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c4bfc1f.js",
+    "static/js/2.1848e9d4.chunk.js",
+    "static/css/main.e9b23d98.chunk.css",
+    "static/js/main.2cb7e3ba.chunk.js"
+  ]
+}
