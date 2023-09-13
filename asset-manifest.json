@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/ege12generator/static/css/main.497c0aec.css",
-    "main.js": "/ege12generator/static/js/main.ab2c554b.js",
-    "index.html": "/ege12generator/index.html",
-    "main.497c0aec.css.map": "/ege12generator/static/css/main.497c0aec.css.map",
-    "main.ab2c554b.js.map": "/ege12generator/static/js/main.ab2c554b.js.map"
+    "main.css": "/ege13generator/static/css/main.497c0aec.css",
+    "main.js": "/ege13generator/static/js/main.ab2c554b.js",
+    "index.html": "/ege13generator/index.html",
+    "main.497c0aec.css.map": "/ege13generator/static/css/main.497c0aec.css.map",
+    "main.ab2c554b.js.map": "/ege13generator/static/js/main.ab2c554b.js.map"
   },
   "entrypoints": [
     "static/css/main.497c0aec.css",
