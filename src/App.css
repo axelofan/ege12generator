@@ -7,8 +7,10 @@ body {
   padding: 20px;
 }
 
-p {
+p, pre {
   text-align: justify;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .code {
@@ -38,4 +40,9 @@ p {
 
 .bold {
   font-weight: bolder;
+}
+
+h1 {
+  font-size: 1.1em;
+  margin: 0;
 }
